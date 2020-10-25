@@ -1,0 +1,18 @@
+[package]
+name = "bsonsplit"
+version = "0.1.0"
+authors = ["Aram Peres <aram.peres@wavy.fm>"]
+edition = "2018"
+homepage = "https://github.com/aramperes/bsonsplit"
+repository = "https://github.com/aramperes/bsonsplit"
+description = "Splits a BSON file into a given number of files."
+license = "MIT"
+categories = ["command-line-utilities"]
+keywords = ["cli", "bson"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bson = "1.1.0"
+anyhow = "1"
+structopt = "0.3.20"
